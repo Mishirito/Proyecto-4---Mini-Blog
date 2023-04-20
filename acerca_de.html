@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+     <meta charset="UTF-8" />
+     <link rel="shortcut icon" href="img/WEB.png" type="image/x-icon">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>HTML y CSS</title>
+     <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
+     <meta name="keywords" content="HTML, CSS">
+     <meta name="author" content="Cindy M. Guzman">
+     <meta name="copyright" content="https://advisertecnology.com/" />
+     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="container">
+
+        <header>
+          <h1>BIENVENIDOS A MI MINI-BLOG</h1>
+        </header> 
+
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">inicio</a>
+          <a href="acerca_de.html"class="active">Acerca de</a>
+          <a href="sagas.html">Sagas</a>
+          <a href="contactos.html">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    
+    <section id="contenido">
+
+      <article>
+        <h2>Desarrollo de la saga</h2>
+
+     
+        <hr>
+        <p class="Articulo1">
+          Shigeru Miyamoto fue el responsable del desarrollo de The Legend of Zelda, que fue lanzado para Nintendo Entertainment System en 1986. En Mario, Miyamoto sustituyó el valor de la puntuación más alta por el de un objetivo más concreto, "completar" el juego. La evolución de los juegos de pruebas de resistencia a los relatos sencillos dio a los jugadores una meta más allá de la simple supervivencia continua.</p>
+
+            <img class="foto" src="img/shigeru.png" alt="Foto"><br>
+            <h3 class="sklill">| Diseñador y Productor de videojuegos |</h3>
+
+        <p class="Articulo1">
+          Shigeru Miyamoto (Kioto, 16 de noviembre de 1952) es un diseñador y productor de videojuegos japonés que trabaja para Nintendo desde 1977. Es considerado como «el padre de los videojuegos modernos» o «el Walt Disney de los juegos electrónicos» por haber creado algunas de las franquicias más influyentes de la industria, entre las que se encuentran Mario, Donkey Kong, The Legend of Zelda, Star Fox, Pikmin y F-Zero.
+          <br> <br>
+          En el año 1977, cuando tenía 24 años de edad, conoció a Hiroshi Yamauchi mediante un contacto de su padre con este; en ese entonces Yamauchi era el presidente de Nintendo y además era un amigo de su padre. Yamauchi lo contrató como «artista del personal» ese mismo año, pintando paneles de máquinas arcadia, y poco después trabajaría como diseñador.
+          Cuando la empresa de Nintendo comenzaba a ramificarse, Miyamoto ayudó con el diseño del primer y original videojuego arcade que operaba mediante la introducción de monedas que la empresa desarrolló, Sheriff, pero debido principalmente a la pérdida de interés de los consumidores por jugar videojuegos el título no consiguió las ventas esperadas. Ayudó también por primera vez a desarrollar un videojuego con el lanzamiento de 1980 Radar Scope. 
+          <br> <br>
+          Miyamoto imaginó muchos personajes y conceptos del argumento, pero finalmente se decidió por un triángulo amoroso entre un gorila, un carpintero, y una chica. Hizo referencia a la rivalidad entre los personajes de cómic Bruto y Popeye por la mujer Olivia Olivo. Bruto se convertía en un simio, una forma que Miyamoto describió como «nada malvado o repulsivo». Dicho simio sería la mascota del protagonista, «un chico divertido y relajado».
+        </p> 
+     
+          </article> 
+          <hr>
+          <div class="redes">
+            <h2>Redes Sociales</h2>
+
+             <a href="#" class="fa fa-linkedin-square"  style="font-size:30px"></a>
+             <a href="#" class="fa fa-youtube-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-facebook-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-twitter-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-github-square" style="font-size:30px"></a>
+        
+          </div>
+      
+
+</section>
+        
+        <aside>
+          <h2>😁</h2>
+          <img src="img/phrase.png" alt="">
+          <br>
+          <h2>📊Que necesitas saber de The Legend of Zelda</h2>
+          <iframe  class="video" src="img/link-zelda.gif" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+        
+          <br>
+        
+          <h2>🌍La ruta para aprender Desarrollo Web</h2>
+          <iframe class="video"  src="https://www.youtube.com/embed/ExsGyZDBlJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+          
+          
+        
+        
+        </aside>
+        
+        <div class="clearfix" ></div>
+
+
+          <footer>
+            <p class="footer"> @ 2023 Creado por Cindy Guzman / 17-mism-1-070: <a href="https://www.20minutos.es/noticia/1147272/0/" target="_blank" >Linkedin</a></p>
+          </footer>
+        </div>
+
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
